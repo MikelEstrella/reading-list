@@ -1,0 +1,42 @@
+.header__main {
+  width: 79.5vw;
+  /* max-width: 1170px; */
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+  display: grid;
+
+  /* margin: 0rem auto;
+  padding: 2.5rem 1rem; */
+  background: rgb(129 255 127 / 49%);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.header {
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+
+  font-family: monospace;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header__main {
+    grid-template-rows: 1fr;
+    background: rgba(129, 255, 127, 0.61);
+
+    margin: 0 auto;
+    padding: 1rem;
+    /* width: 79.5%; */
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  .header {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+}

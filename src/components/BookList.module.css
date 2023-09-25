@@ -1,0 +1,15 @@
+.booklist {
+  width: 90vw;
+  max-width: 1170px;
+  display: grid;
+  gap: 2rem;
+  margin: 1.5rem auto;
+  padding: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .booklist {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+}
